@@ -31,6 +31,16 @@ This project documents the deployment and analysis of a honeypot environment use
 - Repeated connection attempts may indicate scanning, brute-force attempts, or automated attacks
 - Defensive monitoring helps improve incident response awareness
 
+## Sample Log Analysis
+
+Example of activity observed in the honeypot environment:
+
+- Multiple connection attempts from external IP addresses  
+- Repeated login attempts indicating possible brute-force behavior  
+- Unrecognized access attempts targeting open ports  
+
+This type of activity highlights how attackers scan and attempt to gain unauthorized access to systems.
+
 ## Skills Demonstrated
 - Threat detection
 - Log analysis
@@ -40,10 +50,8 @@ This project documents the deployment and analysis of a honeypot environment use
 - Incident response awareness
 
 ## Screenshots
-_Add screenshots here._
 
-Example:
-![Honeypot Dashboard](screenshots/honeypot-dashboard.png)
+Screenshots will be added to demonstrate honeypot activity, log analysis, and captured network behavior within the lab environment.
 
 ## What I Learned
 This project helped me understand how honeypots can be used to detect and study malicious activity. I gained experience reviewing logs, identifying suspicious behavior, and documenting security findings. It also strengthened my understanding of defensive cybersecurity and how organizations can use monitoring tools to improve threat awareness.
